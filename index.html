@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Proyecto Final</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/portada.png')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <span class="subheading">Resolución de problemas e investigación, configuración e implementación de redes y tecnologías LAN e interconexión utilizando la sala de redes emulada en Packet Tracer. </span>
+                        <h1>Proyecto Final</h1>
+                        <hr class="small">
+                        <span class="subheading">Carlos Farouk Abdalá Rincón</span>
+                        <span class="subheading">Gabriel David Jimenez Mosquera</span>
+                        <span class="subheading">Julián Felipe Pulido Castro</span>
+                        
+                        </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        1. A continuación, se mostrara el cableado estructurado y la implementación de la  topología de Red:
+                    </h2>
+                    <center>
+                        <div class="row">
+                            <img src="img/img1.1.png" , height="400">
+                            <h3 class="post-subtitle">
+                                Oficinas
+                            </h3>
+                            <img src="img/img1.2.png" , height="400">
+                        </div>
+                    </center>
+                    <center>
+                        <div class="row">
+                            <h3 class="post-subtitle">
+                                Servers
+                            </h3>
+                            <img src="img/img1.3.png" , height="400">
+                            <h3 class="post-subtitle">
+                                Campus
+                            </h3>
+                            <img src="img/img1.4.png" , height="400">
+                        </div>
+                    </center>
+                    
+                    <center>
+
+                        <h3 class="post-subtitle">
+                            Casa Inteligente
+                        </h3>
+
+
+                        <img src="img/img1.5.png" , height="400">
+
+                    </center>
+
+                </a>
+
+            </div>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        <font size="6">
+                            2. Comunicación entre los usuarios de la misma VLAN en la red “Campus”.
+                    </h2></font>
+                    <h3 class="post-subtitle">
+                        Para verificar la conexión entre pc´s de pertenezcan a la misma vlan, se sigue el el procedimiento de seleccionar un pc, utilizar el comando ipconfig para verificar a que vlan pertenecen, posteriormente se utiliza el comando ping y se acompaña de una direccion que pertenezca a la misma vlan.
+                    </h3>
+                    <center><img src="img/img2.1.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+                        Se observa que hay conexión entre los usuarios de la misma VLAN en la red "Campus".
+                    </h3>
+                </a>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        3. Comunicación entre los usuarios pertenecientes a VLANs diferentes en la red “Campus”.
+                    </h2>
+                    <h3 class="post-subtitle">
+                        Para verificar la conexión entre pc´s de pertenezcan a vlan´s distintas, se sigue el procedimiento de seleccionar un pc, utilizar el comando ipconfig para verificar a que vlan pertenecen, posteriormente se utiliza el comando ping y se acompaña de una direccion que pertenezca a una vlan distinta.
+                    </h3>
+                    <center>
+                        <div class="row">
+                            <img src="img/img3.1.png" , height="400">
+                        </div>
+                    </center>
+                    <h3 class="post-subtitle">
+                        Como se puede observar, el primer paquete se pierde al momento de realizar el protocolo ARP, sin embargo, los demás paquetes llegan exitosos.
+                    </h3>
+
+                </a>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        4. Soportar el protocolo PVRST (Per VLAN Rapid Spanning Tree) y 802.1Q trunking en las LANs.
+                    </h2>
+                    <center>
+                        <div class="row">
+                            <img src="img/img4.1.png" , height="400">
+                        </div>
+                    </center>
+                    <h3 class="post-subtitle">
+                        Como se puede ver en la imagen, los Switches del Campus cuentan con Protocolo Spanning Tree para evitar Bucles además de contar con el Trunking en cada interfaz requerida para la interconexión entre dispositivos. En el caso del Campus, los cuatro Switches tienen asignados los dos requerimientos de la misma forma que se ve en la imagen.
+                    </h3>
+                    <center>
+                        <div class="row">
+                            <img src="img/img4.2.png" , height="400">
+                        </div>
+                    </center>
+                    <h3 class="post-subtitle">
+                        Y para este caso podemos ver que el MutiLayer Switch correspondiente a la oficina, podemos ver que el Trunking se asignó a las interfaces correspondientes a la VLAN 200.
+                    </h3>
+                </a>
+
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        5. Soportar el enrutamiento RIPv2 en las interfaces de routers requeridos.
+                    </h2>
+                    <h3 class="post-subtitle">
+                        Para verificar la configuración de RIPv2 en cada router, luego de configurar el protocolo en cada router, y añadir cada red a cada router las redes aledañas que debe reconocer, se verifica su configuración con el comando show running-config donde se aprecia su apartado de router rip, donde por cada router se observan las redes que debe conocer.
+                    </h3>
+                    <center>
+                        <div class="row">
+                            <h3 class="post-subtitle">
+                                Router-Campus
+                            </h3>
+                            <img src="img/img5.1.png" , height="400">
+                            <h3 class="post-subtitle">
+                                Router-ISP
+                            </h3>
+                            <img src="img/img5.2.png" , height="400">
+                        </div>
+                    </center>
+
+                    <center>
+
+                        <h3 class="post-subtitle">
+                            Router-Oficinas
+                        </h3>
+
+
+                        <img src="img/img5.3.png" , height="400">
+
+                    </center>
+                </a>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        6. Subneteo teniendo en cuenta los espacios de direccionamiento presentadas a continuación:
+
+                    </h2>
+                    <h3 class="post-subtitle">
+                        a. Red “Campus”: 191.50+X.0.0/16. Considere la información de red de la Tabla 1 y que cada VLAN requiere 254 clientes.
+                    </h3>
+                    <center><img src="img/img6.1.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+                        b. WAN (enlace seriales y Cloud): 12.130.2+X.0/24.
+                    </h3>
+                    <center><img src="img/img6.2.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+                        c. LAN de servidores: 209.175.100+X.0/24. Considere que la LAN requiere 30 clientes.
+                    </h3>
+                    <center><img src="img/img6.3.png" , height="400"></center>
+                    
+                </a>
+
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        7.  Para la LAN Mi casa “Inteligente”, considere la información de red de la Tabla 2 (no realizar Subneteo). Para las VLANs en la WLAN “Oficinas” considere los espacios de direcciones VLAN 5: 192.168.5+X.0/24 y VLAN 200: 192.168.200+X.0/24. Adicionalmente, tenga en cuenta la información de red de la Tabla 3 (no realizar Subneteo).
+
+                    </h2>
+
+                    <center><img src="img/img7.1.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+                        Como se puede ver en la imagen, el servidor de la oficina cuanta con los espacios de direccionamiento requeridos para la generación de DHCP, por lo que los dispositivos correspondientes a cada VLAN tendrán una dirección comprendida en dicho espacio.
+                    </h3>
+                    <center><img src="img/img7.2.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+                        Por otro lado, si nos vamos al HomeGateway de la casa Inteligente, podemos ver que en la sección LAN se establece el valor inicial de direcciones requeridas para esta sección. La IP mostrada en la imagen será la Default Gateway de los diferentes dispositivos IoT, a continuación, se mostrará como el DHCP de los diferentes dispositivos de la casa adquieren una dirección correspondiente a la misma red.
+                    </h3>
+                    <center><img src="img/img7.3.png" , height="400"></center>
+                    <center><img src="img/img7.4.png" , height="400"></center>
+                    <center><img src="img/img7.5.png" , height="400"></center>
+                </a>
+
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        8. Todos los usuarios, de todas las redes (i.e., “Campus”, Mi casa “inteligente”, “Oficinas”), deben tener acceso a la página web personalizada alojada en el Servidor Web. Las conexiones HTTP se deben realizar desde el puerto 80 y el nombre de dominio será gestionado por el servidor DNS. Este nombre debe tener el siguiente formato: Iniciales_nombres_estudiantes.net (e.g., jmalk.net).
+                    </h2>
+                    <h3 class="post-subtitle">
+                        Para habilitar el uso de la página web personalizada se utilizaron los servicios de DNS y Web en la sala de servidores, por medio de estos 2 servicios se crearon los dominios aceptados para la página y su traducción de direcciones de red a un nombre de hosting.
+
+                        Se pueden observar los resultados de búsqueda de la página desde diferentes hosts entre diferentes redes. PC admin en oficina:
+                    </h3>
+                    <center>
+                        <div class="row">
+                            <img src="img/img8.1.png" , height="400">
+                        </div>
+                    </center>
+                    <center>
+                        <div class="row">
+                            <h3 class="post-subtitle">
+                                PC en la casa inteligente
+                            </h3>
+                            <img src="img/img8.2.png" , height="400">
+                            <h3 class="post-subtitle">
+                                PC en el Campus
+                            </h3>
+                            <img src="img/img8.3.png" , height="400">
+                        </div>
+                    </center>
+
+                    <h3 class="post-subtitle">
+                        *La carga de imágenes de fondo, se debe al procesamiento de packet tracer, y del tiempo esperado para tomar los pantallazos.
+                    </h3>
+                </a>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        9. Los nodos terminales, tipo smartphone y Laptop, deben tener también acceso a la interfaz gráfica de gestión de los dispositivos de Internet de las Cosas que se incluyen en “Mi Casa “Inteligente”.
+                    </h2>
+                    
+                    <center><img src="img/img9.1.png" , height="400"></center>
+                    <center><img src="img/img9.2.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+                        Como se puede ver en las imágenes, tanto el SmartPhone, como la Laptop pueden ingresar al IoT monitor que permite gestionar y utilizar los diferentes dispositivos IoT conectados a el HomeGateway.
+                    </h3>
+                   
+                </a>
+
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        10. Los PCs de la red “Campus” deben correr un script cliente basado en socket TCP y conectarse con el servidor socket-TCP corriendo en el Servidor Web. El script lo puede desarrollar en el lenguaje de programación de su preferencia y disponible en Cisco Packet Tracer (Hint. Pestaña “Programming”).
+                    </h2>
+                    <h3 class="post-subtitle">
+                        Para el desarrollo de este apartado, se crearon proyectos en cada computador de la red de campus, estos proyectos fueron desarrollados en el lenguaje Python, este código tiene como funcionalidad conectar el computador, con su servidor de DHCP correspondiente, el cual también tiene un proyecto desarrollado en el mismo lenguaje, a continuación, se tendrán los resultados de tanto el servidor como de los computadores.
+                    </h3>
+
+                    <center><img src="img/img10.1.png" , height="400"></center>
+                    <center><img src="img/img10.2 (1).png" , height="400"></center>
+
+                </a>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        11. Documentar las configuraciones de todos los dispositivos de red en un archivo .txt (Hint. show running-config) y construya la tabla de direccionamiento de toda la topología de red.
+                    </h2>
+                    <h3 class="post-subtitle">
+                        Enviado en paquete comprimido.
+                    </h3>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        Resultados y Análisis
+                    </h2>
+                    <h3 class="post-subtitle">
+                        Analisis 1
+                    </h3>
+                    <h3 class="post-subtitle">
+                        Para el análisis de los datos que se crean cuando un pc de cualquier red quiere conectarse, con el servidor web, podemos afirmar, que el proceso de RIP en los routers es esencial, esto debido a que por medio de ellos, el pc encuentra la red especifica a la cual pertenecen los servidores Web y DNS, estos pasos por los nodos terminales se mostraran a continuación.
+                    </h3>
+                    <center><img src="img/img12.1.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+                        Para este ejemplo, usamos un pc en campus, como se puede observar, se utilizo el comando tracert para conocer la ruta que sigue el paquete de datos, que se comunicara en este caso con el servidor DNS, teniendo en cuenta que el servidor Web se encuentra en la misma Vlan, el proceso del camino será el mismo.
+
+                        Para el análisis podemos observar como el paquete llega primeramente a su puerta de enlace perteneciente a su Vlan correspondiente, luego de eso, llega a la interfaz serial del router ISP, el cual al tener configurado el RIP, conoce la red donde se encuentra alojada esa direccion ip, que es a donde finalmente llega el paquete.
+                    </h3>
+                    <h3 class="post-subtitle">
+                        Analisis 2
+                    </h3>
+                    <h3 class="post-subtitle">
+                        Para analizar el flujo de datos de los dispositivos Wireless de oficina y de la casa inteligente, primeramente, veremos el funcionamiento de algunos dispositivos Iot en la casa inteligente siendo manejados desde un smartphone.
+                        </h3>
+                    <center><img src="img/Analisis2.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+                        Ahí podemos observar como desde el celular se conecto a el IotMonitor, usando la direccion ip del home Gateway, para este ejemplo seleccionaremos el ventilador y cambiaremos su estado de off a high.
+                    </h3>
+                    <center><img src="img/Analisis2.1.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+
+                        Como se observa el estado del ventilador cambio y ahora está en su máximo funcionamiento.
+                        <br>
+                    Ahora procederemos a realizar una conexión ping entre este mismo smartphone y una laptop en oficina, esto para probar la interconectividad de las redes, observando así nuevamente el funcionamiento del protocolo RIP en los routers de las redes.
+
+                    </h3>
+                    <center><img src="img/Analisis2.2.png" , height="400"></center>
+
+                    <h3 class="post-subtitle">
+Como se puede observar se realizaron tanto el comando de ping como el comando de tracert, por medio de estos comandos podemos observar como hay paquetes que se pierden, estos corresponden a el protocolo ARP, por el cual el smartphone trata de buscar una direccion que no conoce, y debido a este protocolo, apoyado con el router de oficina, puede encontrar su host de destino.
+                    </h3>
+
+                    <h3 class="post-subtitle">
+                        Analisis 3
+                    </h3>
+                    <h3 class="post-subtitle">
+                        Para analizar el socket enviado por un pc de campus a su correspondiente servidor DHCP, podemos observar que debido al socket el pc manda solicitudes a todos los dispositivos que conoce, sin embargo, el único dispositivo que puede responder, y setear un mensaje de respuesta es el servidor, como se verá a continuación, primeramente, el proceso del computador de enviar solicitudes, y posteriormente el resultado de haber encontrado conexión con el servidor.
+                    </h3>
+                    <center><img src="img/Analisis3.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+                        Como se puede observar, aquí están los diferentes paquetes que los computadores envían, estos al llegar a sus respectivos routers, se direccionan a su destino.
+En la siguiente imagen se mostrara que sucede cuando el servidor recibe uno de estos paquetes, al enviar una respuesta al host que lo envio.
+
+                    </h3>
+                    <center><img src="img/Analisis3.1.png" , height="400"></center>
+                    <h3 class="post-subtitle">
+                        Como se puede observar, el computador recibió una respuesta, en este caso fue su primera respuesta por parte del servidor, y según el código implementado, el estado cambio a 1.
+                    </h3>
+                </a>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        Conclusiones del Laboratorio
+                    </h2>
+                    <h3 class="post-subtitle">
+                        1.	Se logro comprender el funcionamiento y estructuración de una red, construyendo y configurando LANs y LAN-WAN basadas en IPv4 en cada una de las partes de la topologia de Red.
+                        <br>
+                        2.	Se implementaron los servicios de navegación basados en HTTP y socket TCP para poder ver contenidos web en toda la topologia de red.
+                        <br>
+                        3.	Las configuraciones de los servicios de DHCP a través de la gestión dinámica de direcciones IP fue fundamental para el desarrollo de laboratorio. Además, la utilización del servicio DNS nos ayudo a traducir las direcciones IP a nombres de dominio y con esto facilitar la conexión a la red.
+                        
+
+                    </h3>
+                </a>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        Referencias
+                    </h2>
+                    <h3 class="post-subtitle">
+                        [1] Jeremy D. Cioara. Subnetting Examples [En línea]. Disponible en: https://bit.ly/3v6crh
+                        <br>
+                        [2] Llorca Alcón, Manuel. "Configuración de una VLAN mediante Switches CISCO". RiuNet repositorio UPV. https://riunet.upv.es/handle/10251/1424?tl=a (accedido el 23 de septiembre de 2022).
+                        <br>
+                        [3] "Cómo configurar un switch de red para su empresa en 6 pasos". Cisco. https://www.cisco.com/c/es_mx/solutions/small-business/resource-center/networking/how-to-setup-network-switch.html (accedido el 23 de septiembre de 2022).
+                        <br>
+                        [4] Cisco, "Networking Essentials. Module Group 5."
+                        <br>
+                        [5] Juan M. Aranda, “Basic configuration”, Slides.
+                        <br>
+                        [6] Jeremy D. MicroNugget: How to Select Subnet Sizes for VLANs [En línea]. Disponible en: https://bit.ly/3BuXHeV
+                        <br>
+                        [7] "Tipos de Spanning Tree (CST, PVST+, RSTP, MSTP)". Tech Riders. https://techriders.tajamar.es/tipos-de-spanning-tree/#:~:text=Per-VLAN%20Spanning%20Tree%20(PVST,VLAN%20mientras%20bloquea%20otras%20VLAN.
+                        <br>
+                        [8] "802.1Q Encapsulation Explained". NetworkLessons.com. https://networklessons.com/switching/802-1q-encapsulation-explained.
+                        <br>
+                        [9] Biblioteca Universitaria - UTB. TUTORIAL TEÓRICO PRÁCTICO DE LABORATORIO RIPV1, RIPV2, EIGRP Y OSPF. https://biblioteca.utb.edu.co/notas/tesis/0063133.pdf.
+                    </h3>
+                </a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Abdala, Jimenez & Pulido Website 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
